@@ -3,6 +3,11 @@
 (function(){
 
   class Circle{
+    /**
+     * 
+     * @param {String} radius 
+     * @param {String} name 
+     */
     constructor(radius, name){
       this.radius = radius;
       this.name = name; 

@@ -19,7 +19,6 @@
     introduce(){
       console.log(`Hi my name is ${this.firstName} ${this.lastName}`);
     }
-    
   }
 
   /**
@@ -37,7 +36,11 @@
         console.log(`Im a teacher my diploma is ${this.diploma}`);
       }
   }
-
+/**
+   * @param  {String} firstName
+   * @param  {String} lastName
+   * @param  {String} diploma
+   */
   class SpecialisedTeacher extends Teacher {
     teachJS(){
       console.log("I will teach you a lot of things about JavaScript");
