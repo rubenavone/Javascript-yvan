@@ -1,18 +1,21 @@
 "use strict";
+
 (function(){
   console.log("Hello World!")
   //lors de la creation d'un constructeur on met une majuscule
   //Declaration de la fonction constructeur
+/**
+ * 
+ * @param {String} question 
+ * @param {String} answer 
+ */
   function Card(question, answer){
       //Les propriétés de l'objet
       this.question = question;
       this.answer = answer;
 
-      
-
       //getter de question
       this.getQuestion = function(){
-
         return this.question;
       }
 
@@ -31,4 +34,11 @@ console.log(card1)
 
 })();
 
-(()=>{})();
+(()=>{})();//Function fléchée anonyme immédiate 
+
+console.log("/////////////////////////////////////////////////")
+console.log("/////////////////////////////////////////////////")
+console.log("/////////////////////////////////////////////////")
+console.log("/////////////////////////////////////////////////")
+
+//Objet litéral

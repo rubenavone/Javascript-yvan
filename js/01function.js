@@ -39,6 +39,7 @@
 
 
 //Fonction anonyme immédiate IIFES
+
 (function(){
   let msg = "";
     //Creation d'une arrow function
@@ -53,6 +54,10 @@
     const helloTwo = firstName => "Hello " + firstName;
 
   
+    /**
+     * @param  {lastName} //Waiting for a name
+     * @return //Une phrase avec lastName 
+     */
     const helloLast = lastName => msg + "((nom de famille " + lastName + ")";
     //Fonction qui renvoie une autre function high order function
     const helloThree = firstName => {
@@ -74,6 +79,10 @@
     let count = 1;
     button.textContent = count;
   }
+  /**
+   * @param  {} myFunction //High order function, fonction qui prend une fonction en paramètre
+   *                       
+   */
   function test(myFunction){
     console.log("type de toto :", typeof(myFunction)) // output fonction
     console.log(myFunction); //output test(function() {console.log("test")})
