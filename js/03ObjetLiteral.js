@@ -1,7 +1,7 @@
 "use strict";
 
 
-(function(){
+(()=>{
 
 //Objet literal, plain object qui est a l'origine de la syntaxe json
 
@@ -13,5 +13,5 @@
       console.log("Bonjour, je m'appelle" + this.firstName + "" + this.lastName);
     }
   }
-
+console.log(personne1.lastName);
 })();

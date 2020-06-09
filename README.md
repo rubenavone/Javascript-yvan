@@ -19,3 +19,13 @@
 ## 08 Array
 
 ## 09 Structure de controle
+
+## 10 Asynchrone
+
+## 11 Event
+
+## Dir 12 Import export 
+
+## Dir 13 XML http request 
+
+Callback c'est une fonction qui est donnée en parametre a une autre fonction, elle sera appelé de manière synchrone ou asynchrone
